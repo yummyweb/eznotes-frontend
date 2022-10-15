@@ -1,0 +1,63 @@
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 50px;
+  color: black;
+}
+
+.descriptionContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.description {
+  font-size: 24px;
+  color: black;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.input {
+  background-color: #F9C91E;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 12px;
+  font-size: 20px;
+  width: 60%;
+  outline: none;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 30px;
+  background-position: 7px;
+  text-indent: 27px;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.imgContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 400px;
+}
+
+.img:hover {
+  cursor: pointer;
+}
